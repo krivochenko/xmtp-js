@@ -1,6 +1,6 @@
 import { signature } from '@xmtp/proto'
 import Long from 'long'
-import * as secp from '@noble/secp256k1'
+import * as secp from '../secp251k1'
 import { PublicKey, UnsignedPublicKey, SignedPublicKey } from './PublicKey'
 import { SignedPrivateKey } from './PrivateKey'
 import { utils } from 'ethers'

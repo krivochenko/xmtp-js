@@ -1,4 +1,4 @@
-import * as secp from '@noble/secp256k1'
+import * as secp from '../secp251k1'
 import { crypto } from './encryption'
 
 export function getRandomValues<T extends ArrayBufferView | null>(array: T): T {

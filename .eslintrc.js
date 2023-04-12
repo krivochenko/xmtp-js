@@ -13,12 +13,17 @@ module.exports = {
     warnOnUnsupportedTypeScriptVersion: false,
   },
   rules: {
+    '@typescript-eslint/no-this-alias': 'off',
     'prettier/prettier': 'error',
     'jsdoc/require-jsdoc': 'off',
     'jsdoc/require-description': 'off',
     'jsdoc/require-param': 'off',
     'jsdoc/require-param-type': 'off',
     'jsdoc/require-returns': 'off',
+    'no-use-before-define': 'off',
+    'no-useless-constructor': 'off',
+    'no-sequences': 'off',
+    'no-unused-expressions': 'off',
   },
   plugins: ['@typescript-eslint', 'prettier', 'jsdoc'],
   ignorePatterns: [
